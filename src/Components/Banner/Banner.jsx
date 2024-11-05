@@ -3,7 +3,7 @@ import HeroImage from "../HeroImage/HeroImage";
 
 const Banner = () => {
   return (
-    <div className="hero mx-8 bg-[#9538E2]">
+    <div className="hero bg-[#9538E2] relative">
       <div className="hero-content text-center">
         <div>
           <h1 className="text-7xl font-bold text-white">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
@@ -15,7 +15,9 @@ const Banner = () => {
         </div>
       </div>
 
+      <div className="relative -bottom-[370px]">
       <HeroImage></HeroImage>
+      </div>
     </div>
   );
 };

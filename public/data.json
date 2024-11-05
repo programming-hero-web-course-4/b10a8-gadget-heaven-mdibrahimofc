@@ -1,404 +1,403 @@
 [
-    {
-      "product_id": "P001",
-      "product_title": "Apple iPhone 15 Pro Max",
-      "product_image": "https://m.media-amazon.com/images/I/61NfnaEUqOL._AC_UY218_.jpg",
-      "category": "iPhone",
-      "price": 1299,
-      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
-      "specification": [
-        "6.7-inch Super Retina XDR display",
-        "A17 Bionic chip",
-        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
-        "LiDAR Scanner",
-        "Up to 2TB storage"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": "P002",
-      "product_title": "Samsung Galaxy Watch 6",
-      "product_image": "https://m.media-amazon.com/images/I/711f6KLsMaL._AC_UY218_.jpg",
-      "category": "Smartwatch",
-      "price": 399,
-      "description": "The next-generation smartwatch with advanced health monitoring.",
-      "specification": [
-        "1.5-inch AMOLED display",
-        "Up to 40 hours battery life",
-        "Heart rate and SpO2 monitoring",
-        "Water-resistant (5ATM)"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "product_id": "P003",
-      "product_title": "Dell XPS 15",
-      "product_image": "https://m.media-amazon.com/images/I/71nX6B1VJFL._AC_UY218_.jpg",
-      "category": "Laptop",
-      "price": 1999,
-      "description": "Powerful laptop with top-notch performance and stunning display.",
-      "specification": [
-        "15.6-inch 4K UHD display",
-        "Intel Core i7 12th Gen",
-        "16GB RAM, 512GB SSD",
-        "NVIDIA GeForce RTX 3050 Ti"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "P004",
-      "product_title": "Apple AirPods Pro (2nd Generation)",
-      "product_image": "https://m.media-amazon.com/images/I/618kmr6+uoL._AC_UY218_.jpg",
-      "category": "Accessories",
-      "price": 249,
-      "description": "Enhanced active noise cancellation and immersive sound.",
-      "specification": [
-        "H2 chip for better sound",
-        "Active Noise Cancellation",
-        "Transparency mode",
-        "Up to 30 hours with charging case"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": "P005",
-      "product_title": "Samsung Galaxy S23 Ultra",
-      "product_image": "https://m.media-amazon.com/images/I/61h3rcSmWwL._AC_UY218_.jpg",
-      "category": "Phone",
-      "price": 1199,
-      "description": "High-end smartphone with exceptional camera and display.",
-      "specification": [
-        "6.8-inch Dynamic AMOLED 2X",
-        "Snapdragon 8 Gen 2",
-        "Quad-camera setup (200MP main)",
-        "5000 mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": "P006",
-      "product_title": "MacBook Pro 14-inch",
-      "product_image": "https://m.media-amazon.com/images/I/61HUaSA6c0L._AC_UY218_.jpg",
-      "category": "MacBook",
-      "price": 2499,
-      "description": "Ultimate performance with M2 Pro chip for professionals.",
-      "specification": [
-        "14-inch Liquid Retina XDR display",
-        "M2 Pro chip",
-        "16GB RAM, 1TB SSD",
-        "All-day battery life"
-      ],
-      "availability": false,
-      "rating": 4.9
-    },
-    {
-      "product_id": "P007",
-      "product_title": "Google Pixel Watch",
-      "product_image": "https://m.media-amazon.com/images/I/61iVGS1pGIL._AC_UY218_.jpg",
-      "category": "Smartwatch",
-      "price": 349,
-      "description": "Sleek design with Google's Wear OS and Fitbit integration.",
-      "specification": [
-        "1.2-inch AMOLED display",
-        "Google Assistant built-in",
-        "Heart rate and ECG monitoring",
-        "Water-resistant (5ATM)"
-      ],
-      "availability": true,
-      "rating": 4.3
-    },
-    {
-      "product_id": "P008",
-      "product_title": "HP Spectre x360",
-      "product_image": "https://m.media-amazon.com/images/I/61qTxfkHV0L._AC_UY218_.jpg",
-      "category": "Laptop",
-      "price": 1599,
-      "description": "A versatile 2-in-1 laptop with an elegant design and solid performance.",
-      "specification": [
-        "13.5-inch OLED display",
-        "Intel Core i7 12th Gen",
-        "16GB RAM, 512GB SSD",
-        "360-degree hinge for tablet mode"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": "P009",
-      "product_title": "Jabra Elite 75t",
-      "product_image": "https://m.media-amazon.com/images/I/61bIgAO00-L._AC_UY218_.jpg",
-      "category": "Accessories",
-      "price": 179,
-      "description": "Compact true wireless earbuds with great sound and fit.",
-      "specification": [
-        "Active Noise Cancellation",
-        "Up to 28 hours battery life",
-        "Water-resistant (IP55)",
-        "Customizable sound with app"
-      ],
-      "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": "P010",
-      "product_title": "Xiaomi Mi 13 Pro",
-      "product_image": "https://m.media-amazon.com/images/I/5153rWy3IHL._AC_UY218_.jpg",
-      "category": "Phone",
-      "price": 799,
-      "description": "Flagship performance at a competitive price.",
-      "specification": [
-        "6.73-inch AMOLED display",
-        "Snapdragon 8 Gen 2",
-        "Triple-camera system (50MP Main)",
-        "4820 mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "product_id": "P011",
-      "product_title": "MacBook Air M2",
-      "product_image": "https://m.media-amazon.com/images/I/619ev9+ZaML._AC_UY218_.jpg",
-      "category": "MacBook",
-      "price": 1199,
-      "description": "The thinnest and lightest MacBook powered by the M2 chip.",
-      "specification": [
-        "13.6-inch Liquid Retina display",
-        "M2 chip",
-        "8GB RAM, 256GB SSD",
-        "All-day battery life"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "P012",
-      "product_title": "Apple Watch Ultra",
-      "product_image": "https://m.media-amazon.com/images/I/81zioALMaAL._AC_UY218_.jpg",
-      "category": "Smartwatch",
-      "price": 799,
-      "description": "Built for extreme activities with advanced tracking and durability.",
-      "specification": [
-        "49mm titanium case",
-        "Dual-frequency GPS",
-        "Up to 36 hours battery life",
-        "Water-resistant up to 100m"
-      ],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "product_id": "P013",
-      "product_title": "Lenovo Yoga 9i",
-      "product_image": "https://example.com/lenovoyoga9i.jpg",
-      "category": "Laptop",
-      "price": 1799,
-      "description": "Flexible 2-in-1 laptop with premium build quality.",
-      "specification": [
-        "14-inch 4K OLED display",
-        "Intel Core i7 13th Gen",
-        "16GB RAM, 1TB SSD",
-        "360-degree rotating soundbar"
-      ],
-      "availability": false,
-      "rating": 4.6
-    },
-    {
-      "product_id": "P014",
-      "product_title": "Bose QuietComfort Earbuds II",
-      "product_image": "https://example.com/boseqc2.jpg",
-      "category": "Accessories",
-      "price": 299,
-      "description": "Best-in-class noise cancellation and sound quality.",
-      "specification": [
-        "Advanced Noise Cancelling",
-        "Up to 24 hours battery life",
-        "IPX4 water-resistant",
-        "Customizable ear tips"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": "P015",
-      "product_title": "OnePlus 11",
-      "product_image": "https://example.com/oneplus11.jpg",
-      "category": "Phone",
-      "price": 699,
-      "description": "A powerful smartphone with flagship features.",
-      "specification": [
-        "6.7-inch AMOLED display",
-        "Snapdragon 8 Gen 2",
-        "Triple-camera system (50MP Main)",
-        "5000 mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": "P016",
-      "product_title": "MacBook Pro 16-inch",
-      "product_image": "https://example.com/macbookpro16.jpg",
-      "category": "MacBook",
-      "price": 2999,
-      "description": "The powerful 16-inch MacBook Pro with M2 Max chip.",
-      "specification": [
-        "16-inch Liquid Retina XDR display",
-        "M2 Max chip",
-        "32GB RAM, 1TB SSD",
-        "High-fidelity six-speaker sound system"
-      ],
-      "availability": false,
-      "rating": 4.9
-    },
-    {
-      "product_id": "P017",
-      "product_title": "Garmin Fenix 7",
-      "product_image": "https://example.com/garminfenix7.jpg",
-      "category": "Smartwatch",
-      "price": 899,
-      "description": "High-performance GPS smartwatch for outdoor enthusiasts.",
-      "specification": [
-        "1.4-inch sunlight-readable display",
-        "Up to 18 days battery life",
-        "Multi-GNSS support",
-        "Built-in sports apps"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "P018",
-      "product_title": "Microsoft Surface Laptop 5",
-      "product_image": "https://example.com/surfacelaptop5.jpg",
-      "category": "Laptop",
-      "price": 1399,
-      "description": "A sleek and lightweight laptop with impressive performance.",
-      "specification": [
-        "13.5-inch PixelSense display",
-        "Intel Core i7 12th Gen",
-        "16GB RAM, 512GB SSD",
-        "All-day battery life"
-      ],
-      "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": "P019",
-      "product_title": "Sony WH-1000XM5",
-      "product_image": "https://example.com/sonywh1000xm5.jpg",
-      "category": "Accessories",
-      "price": 399,
-      "description": "Industry-leading noise-cancelling headphones with exceptional sound.",
-      "specification": [
-        "Adaptive Noise Cancelling",
-        "Up to 30 hours battery life",
-        "Quick charge support",
-        "Touch controls"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": "P020",
-      "product_title": "Google Pixel 7 Pro",
-      "product_image": "https://example.com/pixel7pro.jpg",
-      "category": "Phone",
-      "price": 899,
-      "description": "Experience the best of Google with the Pixel 7 Pro.",
-      "specification": [
-        "6.7-inch OLED display",
-        "Google Tensor G2 chip",
-        "Triple-camera system (50MP Main)",
-        "5000 mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": "P021",
-      "product_title": "MacBook Air M1",
-      "product_image": "https://example.com/macbookairm1.jpg",
-      "category": "MacBook",
-      "price": 999,
-      "description": "The original MacBook Air with M1 chip for superb efficiency.",
-      "specification": [
-        "13.3-inch Retina display",
-        "M1 chip",
-        "8GB RAM, 256GB SSD",
-        "Fanless design"
-      ],
-      "availability": true,
-      "rating": 4.7
-    },
-    {
-      "product_id": "P022",
-      "product_title": "Fitbit Versa 4",
-      "product_image": "https://example.com/fitbitversa4.jpg",
-      "category": "Smartwatch",
-      "price": 229,
-      "description": "A stylish smartwatch focused on health and fitness.",
-      "specification": [
-        "1.58-inch AMOLED display",
-        "Up to 6 days battery life",
-        "Heart rate tracking",
-        "Built-in GPS"
-      ],
-      "availability": true,
-      "rating": 4.3
-    },
-    {
-      "product_id": "P023",
-      "product_title": "ASUS ROG Zephyrus G15",
-      "product_image": "https://example.com/rogzephyrusg15.jpg",
-      "category": "Laptop",
-      "price": 1899,
-      "description": "A gaming laptop with sleek design and powerhouse performance.",
-      "specification": [
-        "15.6-inch QHD display",
-        "AMD Ryzen 9",
-        "32GB RAM, 1TB SSD",
-        "NVIDIA GeForce RTX 3070"
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": "P024",
-      "product_title": "Anker Soundcore Liberty 3 Pro",
-      "product_image": "https://example.com/ankersoundcore3pro.jpg",
-      "category": "Accessories",
-      "price": 149,
-      "description": "Premium true wireless earbuds with adaptive noise cancelling.",
-      "specification": [
-        "Astria Coaxial Acoustic Architecture",
-        "Up to 32 hours total playtime",
-        "Water-resistant (IPX4)",
-        "Multi-mode noise cancellation"
-      ],
-      "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": "P025",
-      "product_title": "Huawei Mate 50 Pro",
-      "product_image": "https://example.com/huaweimate50pro.jpg",
-      "category": "Phone",
-      "price": 1099,
-      "description": "High-end smartphone with innovative camera features.",
-      "specification": [
-        "6.74-inch OLED display",
-        "Kirin 9000S chip",
-        "Quad-camera setup (50MP main)",
-        "4700 mAh battery"
-      ],
-      "availability": true,
-      "rating": 4.5
-    }
-  ]
-  
+  {
+    "product_id": "P001",
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://m.media-amazon.com/images/I/61NfnaEUqOL._AC_UY218_.jpg",
+    "category": "iPhone",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P002",
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://m.media-amazon.com/images/I/711f6KLsMaL._AC_UY218_.jpg",
+    "category": "Smartwatch",
+    "price": 399,
+    "description": "The next-generation smartwatch with advanced health monitoring.",
+    "specification": [
+      "1.5-inch AMOLED display",
+      "Up to 40 hours battery life",
+      "Heart rate and SpO2 monitoring",
+      "Water-resistant (5ATM)"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P003",
+    "product_title": "Dell XPS 15",
+    "product_image": "https://m.media-amazon.com/images/I/71nX6B1VJFL._AC_UY218_.jpg",
+    "category": "Laptop",
+    "price": 1999,
+    "description": "Powerful laptop with top-notch performance and stunning display.",
+    "specification": [
+      "15.6-inch 4K UHD display",
+      "Intel Core i7 12th Gen",
+      "16GB RAM, 512GB SSD",
+      "NVIDIA GeForce RTX 3050 Ti"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P004",
+    "product_title": "Apple AirPods Pro (2nd Generation)",
+    "product_image": "https://m.media-amazon.com/images/I/618kmr6+uoL._AC_UY218_.jpg",
+    "category": "Accessories",
+    "price": 249,
+    "description": "Enhanced active noise cancellation and immersive sound.",
+    "specification": [
+      "H2 chip for better sound",
+      "Active Noise Cancellation",
+      "Transparency mode",
+      "Up to 30 hours with charging case"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P005",
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://m.media-amazon.com/images/I/61h3rcSmWwL._AC_UY218_.jpg",
+    "category": "Phone",
+    "price": 1199,
+    "description": "High-end smartphone with exceptional camera and display.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X",
+      "Snapdragon 8 Gen 2",
+      "Quad-camera setup (200MP main)",
+      "5000 mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P006",
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "https://m.media-amazon.com/images/I/61HUaSA6c0L._AC_UY218_.jpg",
+    "category": "MacBook",
+    "price": 2499,
+    "description": "Ultimate performance with M2 Pro chip for professionals.",
+    "specification": [
+      "14-inch Liquid Retina XDR display",
+      "M2 Pro chip",
+      "16GB RAM, 1TB SSD",
+      "All-day battery life"
+    ],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P007",
+    "product_title": "Google Pixel Watch",
+    "product_image": "https://m.media-amazon.com/images/I/61iVGS1pGIL._AC_UY218_.jpg",
+    "category": "Smartwatch",
+    "price": 349,
+    "description": "Sleek design with Google's Wear OS and Fitbit integration.",
+    "specification": [
+      "1.2-inch AMOLED display",
+      "Google Assistant built-in",
+      "Heart rate and ECG monitoring",
+      "Water-resistant (5ATM)"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P008",
+    "product_title": "HP Spectre x360",
+    "product_image": "https://m.media-amazon.com/images/I/61qTxfkHV0L._AC_UY218_.jpg",
+    "category": "Laptop",
+    "price": 1599,
+    "description": "A versatile 2-in-1 laptop with an elegant design and solid performance.",
+    "specification": [
+      "13.5-inch OLED display",
+      "Intel Core i7 12th Gen",
+      "16GB RAM, 512GB SSD",
+      "360-degree hinge for tablet mode"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P009",
+    "product_title": "Jabra Elite 75t",
+    "product_image": "https://m.media-amazon.com/images/I/61bIgAO00-L._AC_UY218_.jpg",
+    "category": "Accessories",
+    "price": 179,
+    "description": "Compact true wireless earbuds with great sound and fit.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Up to 28 hours battery life",
+      "Water-resistant (IP55)",
+      "Customizable sound with app"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P010",
+    "product_title": "Xiaomi Mi 13 Pro",
+    "product_image": "https://m.media-amazon.com/images/I/5153rWy3IHL._AC_UY218_.jpg",
+    "category": "Phone",
+    "price": 799,
+    "description": "Flagship performance at a competitive price.",
+    "specification": [
+      "6.73-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system (50MP Main)",
+      "4820 mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": "P011",
+    "product_title": "MacBook Air M2",
+    "product_image": "https://m.media-amazon.com/images/I/619ev9+ZaML._AC_UY218_.jpg",
+    "category": "MacBook",
+    "price": 1199,
+    "description": "The thinnest and lightest MacBook powered by the M2 chip.",
+    "specification": [
+      "13.6-inch Liquid Retina display",
+      "M2 chip",
+      "8GB RAM, 256GB SSD",
+      "All-day battery life"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P012",
+    "product_title": "Apple Watch Ultra",
+    "product_image": "https://m.media-amazon.com/images/I/81zioALMaAL._AC_UY218_.jpg",
+    "category": "Smartwatch",
+    "price": 799,
+    "description": "Built for extreme activities with advanced tracking and durability.",
+    "specification": [
+      "49mm titanium case",
+      "Dual-frequency GPS",
+      "Up to 36 hours battery life",
+      "Water-resistant up to 100m"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P013",
+    "product_title": "Lenovo Yoga 9i",
+    "product_image": "https://m.media-amazon.com/images/I/91RudM8j4fL._AC_UY218_.jpg",
+    "category": "Laptop",
+    "price": 1799,
+    "description": "Flexible 2-in-1 laptop with premium build quality.",
+    "specification": [
+      "14-inch 4K OLED display",
+      "Intel Core i7 13th Gen",
+      "16GB RAM, 1TB SSD",
+      "360-degree rotating soundbar"
+    ],
+    "availability": false,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P014",
+    "product_title": "Bose QuietComfort Earbuds II",
+    "product_image": "https://m.media-amazon.com/images/I/51-FK1DFxBL._AC_UY218_.jpg",
+    "category": "Accessories",
+    "price": 299,
+    "description": "Best-in-class noise cancellation and sound quality.",
+    "specification": [
+      "Advanced Noise Cancelling",
+      "Up to 24 hours battery life",
+      "IPX4 water-resistant",
+      "Customizable ear tips"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P015",
+    "product_title": "OnePlus 11",
+    "product_image": "https://m.media-amazon.com/images/I/71xMs88FYbL._AC_UY218_.jpg",
+    "category": "Phone",
+    "price": 699,
+    "description": "A powerful smartphone with flagship features.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple-camera system (50MP Main)",
+      "5000 mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P016",
+    "product_title": "MacBook Pro 16-inch",
+    "product_image": "https://m.media-amazon.com/images/I/61bwiPRcv2L._AC_UY218_.jpg",
+    "category": "MacBook",
+    "price": 2999,
+    "description": "The powerful 16-inch MacBook Pro with M2 Max chip.",
+    "specification": [
+      "16-inch Liquid Retina XDR display",
+      "M2 Max chip",
+      "32GB RAM, 1TB SSD",
+      "High-fidelity six-speaker sound system"
+    ],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": "P017",
+    "product_title": "Garmin Fenix 7",
+    "product_image": "https://m.media-amazon.com/images/I/711rEu2qZrL._AC_UY218_.jpg",
+    "category": "Smartwatch",
+    "price": 899,
+    "description": "High-performance GPS smartwatch for outdoor enthusiasts.",
+    "specification": [
+      "1.4-inch sunlight-readable display",
+      "Up to 18 days battery life",
+      "Multi-GNSS support",
+      "Built-in sports apps"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P018",
+    "product_title": "Microsoft Surface Laptop 5",
+    "product_image": "https://m.media-amazon.com/images/I/41gt3QU1Z6L._AC_UY218_.jpg",
+    "category": "Laptop",
+    "price": 1399,
+    "description": "A sleek and lightweight laptop with impressive performance.",
+    "specification": [
+      "13.5-inch PixelSense display",
+      "Intel Core i7 12th Gen",
+      "16GB RAM, 512GB SSD",
+      "All-day battery life"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P019",
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://m.media-amazon.com/images/I/61ULAZmt9NL._AC_UY218_.jpg",
+    "category": "Accessories",
+    "price": 399,
+    "description": "Industry-leading noise-cancelling headphones with exceptional sound.",
+    "specification": [
+      "Adaptive Noise Cancelling",
+      "Up to 30 hours battery life",
+      "Quick charge support",
+      "Touch controls"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P020",
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://m.media-amazon.com/images/I/51yh3V5taFL._AC_UY218_.jpg",
+    "category": "Phone",
+    "price": 899,
+    "description": "Experience the best of Google with the Pixel 7 Pro.",
+    "specification": [
+      "6.7-inch OLED display",
+      "Google Tensor G2 chip",
+      "Triple-camera system (50MP Main)",
+      "5000 mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": "P021",
+    "product_title": "MacBook Air M1",
+    "product_image": "https://m.media-amazon.com/images/I/71TPda7cwUL._AC_UY218_.jpg",
+    "category": "MacBook",
+    "price": 999,
+    "description": "The original MacBook Air with M1 chip for superb efficiency.",
+    "specification": [
+      "13.3-inch Retina display",
+      "M1 chip",
+      "8GB RAM, 256GB SSD",
+      "Fanless design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": "P022",
+    "product_title": "Fitbit Versa 4",
+    "product_image": "https://m.media-amazon.com/images/I/61CZSoSnVPL._AC_UY218_.jpg",
+    "category": "Smartwatch",
+    "price": 229,
+    "description": "A stylish smartwatch focused on health and fitness.",
+    "specification": [
+      "1.58-inch AMOLED display",
+      "Up to 6 days battery life",
+      "Heart rate tracking",
+      "Built-in GPS"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": "P023",
+    "product_title": "ASUS ROG Zephyrus G15",
+    "product_image": "https://m.media-amazon.com/images/I/81GrCeuCzxL._AC_UY218_.jpg",
+    "category": "Laptop",
+    "price": 1899,
+    "description": "A gaming laptop with sleek design and powerhouse performance.",
+    "specification": [
+      "15.6-inch QHD display",
+      "AMD Ryzen 9",
+      "32GB RAM, 1TB SSD",
+      "NVIDIA GeForce RTX 3070"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": "P024",
+    "product_title": "Anker Soundcore Liberty 3 Pro",
+    "product_image": "https://m.media-amazon.com/images/I/51ObVUQs4AL._AC_UY218_.jpg",
+    "category": "Accessories",
+    "price": 149,
+    "description": "Premium true wireless earbuds with adaptive noise cancelling.",
+    "specification": [
+      "Astria Coaxial Acoustic Architecture",
+      "Up to 32 hours total playtime",
+      "Water-resistant (IPX4)",
+      "Multi-mode noise cancellation"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": "P025",
+    "product_title": "Huawei Mate 50 Pro",
+    "product_image": "https://m.media-amazon.com/images/I/41z+0xXxhGL._AC_UY218_.jpg",
+    "category": "Phone",
+    "price": 1099,
+    "description": "High-end smartphone with innovative camera features.",
+    "specification": [
+      "6.74-inch OLED display",
+      "Kirin 9000S chip",
+      "Quad-camera setup (50MP main)",
+      "4700 mAh battery"
+    ],
+    "availability": true,
+    "rating": 4.5
+  }
+]
