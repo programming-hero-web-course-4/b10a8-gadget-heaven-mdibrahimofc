@@ -7,12 +7,10 @@ export const ShoppingCartContext = createContext(0);
 export const AddCartContext = createContext([]);
 
 const Root = () => {
-  const [cartItem, setCartItem] = useState(['mobile']);
-  const [cartCount, setCartCount] = useState(0);
   return (
     <div className="max-w-screen-2xl mx-auto">
-      <ShoppingCartContext.Provider value={[cartCount, setCartCount]}>
-        <AddCartContext.Provider value={[cartItem, setCartItem]}>
+      <ShoppingCartContext.Provider value={'b'}>
+        <AddCartContext.Provider value={'a'}>
           <NavBar></NavBar>
           <Outlet></Outlet>
           <Footer></Footer>

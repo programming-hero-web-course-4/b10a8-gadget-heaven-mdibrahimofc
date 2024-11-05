@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FaRegStar } from "react-icons/fa";
 import ReactStars from "react-rating-stars-component";
@@ -11,6 +11,7 @@ const ProductsDetails = () => {
   const AllData = useLoaderData();
   const productId = useParams().productsId;
   const product = AllData.find((product) => product.product_id === productId);
+  const [isDisabled, setIsdisabled] = useState(false)
   const {
     product_id,
     product_image,
@@ -50,8 +51,8 @@ const ProductsDetails = () => {
           <p className="my-4">{description}</p>
           <h2 className="font-bold text-xl">Specification</h2>
           <ol className="my-3">
-            {specification.map((sp) => (
-              <li> {sp} </li>
+            {specification.map((sp, id) => (
+              <li key={id} > {sp} </li>
             ))}
           </ol>
           <h2 className="font-semibold flex items-center">
@@ -65,7 +66,10 @@ const ProductsDetails = () => {
           <div className="flex gap-8">
             <button className="btn bg-[#9538E2]" onClick={()=> addToStoredReadList(product_id)} > Add To Card <AiOutlineShoppingCart className="text-xl" />  </button>
             <ToastContainer />
-            <button className="btn" onClick={()=> addToStoredWishList(product_id) } > <GiLoveMystery className="text-xl" />  </button>
+            <button className="btn" disabled = {isDisabled} onClick={()=> {
+              addToStoredWishList(product_id)
+              setIsdisabled(true)
+              } } > <GiLoveMystery className="text-xl" />  </button>
           </div>
         </div>
       </div>

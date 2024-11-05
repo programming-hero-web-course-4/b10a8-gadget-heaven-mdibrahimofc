@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import {
   createBrowserRouter,
   RouterProvider,
+  useLoaderData,
 } from "react-router-dom";
 import './index.css'
 import App from './App.jsx'
@@ -36,7 +37,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/dashboard',
-        element: <Dashboard></Dashboard>
+        element: <Dashboard></Dashboard>,
+        loader: () => fetch('/data.json')
       }
     ]
   },
