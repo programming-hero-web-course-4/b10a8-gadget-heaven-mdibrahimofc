@@ -38,7 +38,7 @@ const NavBar = () => {
                 </div>
                 <div className='space-x-4 text-2xl'>
                     <button className='relative'><AiOutlineShoppingCart className='text-4xl' /> <p className='absolute font-semibold -top-6 -right-1'> {count} </p> </button>
-                    <button><NavLink to='/wishlist'><GiLoveMystery /></NavLink></button>
+                    <button><GiLoveMystery /></button>
                 </div>
             </nav>
         </div>
