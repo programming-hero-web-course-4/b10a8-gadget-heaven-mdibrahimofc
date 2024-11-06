@@ -4,7 +4,7 @@ import { FaRegStar } from "react-icons/fa";
 import ReactStars from "react-rating-stars-component";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiLoveMystery } from "react-icons/gi";
-import { addToStoredReadList, addToStoredWishList } from "../Utility/AddToDB";
+import { addToCartList, addToStoredWishList } from "../Utility/AddToDB";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 const ProductsDetails = () => {
@@ -64,7 +64,7 @@ const ProductsDetails = () => {
           <p className="p-2 bg-gray-300 rounded-xl"> {rating} </p>
           </div>
           <div className="flex gap-8">
-            <button className="btn bg-[#9538E2]" onClick={()=> addToStoredReadList(product_id)} > Add To Card <AiOutlineShoppingCart className="text-xl" />  </button>
+            <button className="btn bg-[#9538E2]" onClick={()=> addToCartList(product_id)} > Add To Card <AiOutlineShoppingCart className="text-xl" />  </button>
             <ToastContainer />
             <button className="btn" disabled = {isDisabled} onClick={()=> {
               addToStoredWishList(product_id)

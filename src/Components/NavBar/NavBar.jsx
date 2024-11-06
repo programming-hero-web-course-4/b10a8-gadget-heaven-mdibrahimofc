@@ -1,10 +1,11 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiLoveMystery } from "react-icons/gi";
-import { getStoredReadList } from '../Utility/AddToDB';
+import { getAddCartLIst } from '../Utility/AddToDB';
 
-const NavBar = () => {
-    let count = getStoredReadList().length;
+const NavBar = ({productCount}) => {
+    console.log(productCount);
+    let count = getAddCartLIst().length;
     const location = useLocation().pathname
     return (
         <div className={`py-6 mx-8 mt-3 ${ location === '/' ? 'bg-[#9538E2]' : 'bg-white' }`} >
@@ -32,7 +33,7 @@ const NavBar = () => {
                     </NavLink>
                 </div>
                 <div className='space-x-4 text-2xl'>
-                    <button><AiOutlineShoppingCart /></button>
+                    <button><AiOutlineShoppingCart /> {count} </button>
                     <button><NavLink to='/wishlist'><GiLoveMystery /></NavLink></button>
                 </div>
             </nav>

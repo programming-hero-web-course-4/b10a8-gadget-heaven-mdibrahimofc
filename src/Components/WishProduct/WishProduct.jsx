@@ -1,5 +1,5 @@
 import { RxCross2 } from "react-icons/rx";
-import { addToStoredReadList } from "../Utility/AddToDB";
+import { addToCartList } from "../Utility/AddToDB";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 
@@ -15,7 +15,7 @@ const WishProduct = ({wishlist}) => {
                 <h2 className="font-semibold text-2xl">{product_title}</h2>
                 <p>{description}</p>
                 <p className="font-semibold text-xl">Price: ${price}</p>
-                <button className="btn bg-[#9538E2] text-white rounded-full" onClick={()=> addToStoredReadList(product_id)} >Add to cart</button>
+                <button className="btn bg-[#9538E2] text-white rounded-full" onClick={()=> addToCartList(product_id)} >Add to cart</button>
                 <ToastContainer></ToastContainer>
                 </div>
                 <div className="flex items-start">

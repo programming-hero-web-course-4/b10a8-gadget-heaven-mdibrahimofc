@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getStoredReadList } from "../Utility/AddToDB";
+import { getAddCartLIst } from "../Utility/AddToDB";
 import Cart from "../Cart/Cart";
 import { useLoaderData, useNavigate } from "react-router-dom";
 
@@ -7,7 +7,7 @@ const Carts = () => {
   const [cart, setCart] = useState([]);
   const [prices, setPrices] = useState(0);
   const navigate = useNavigate()
-  const storecart = getStoredReadList();
+  const storecart = getAddCartLIst();
   const AllData = useLoaderData();
   const handlePurchase = () => {
     localStorage.removeItem('cart');
