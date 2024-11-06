@@ -15,6 +15,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import ReactDOM from 'react-dom';
 import ErrorPage2 from './Components/ErrorPage2/ErrorPage2.jsx';
 import ErrorPage3 from './Components/ErrorPage3/ErrorPage3.jsx';
+import AboutUs from './Components/AboutUs/AboutUs.jsx';
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
         path: '/dashboard',
         element: <Dashboard></Dashboard>,
         loader: () => fetch('/data.json')
+      },
+      {
+        path: '/aboutus',
+        element: <AboutUs></AboutUs>
       }
     ]
   },

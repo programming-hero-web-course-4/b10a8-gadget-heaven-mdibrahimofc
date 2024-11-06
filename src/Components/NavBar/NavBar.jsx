@@ -30,6 +30,11 @@ const NavBar = () => {
                         className={({ isActive }) => isActive ? 'bg-[#9538E2] text-white p-2 rounded' : 'p-2'}>
                         Dashboard
                     </NavLink>
+                    <NavLink 
+                        to='/aboutus' 
+                        className={({ isActive }) => isActive ? 'bg-[#9538E2] text-white p-2 rounded' : 'p-2'}>
+                        About Us
+                    </NavLink>
                 </div>
                 <div className='space-x-4 text-2xl'>
                     <button className='relative'><AiOutlineShoppingCart className='text-4xl' /> <p className='absolute font-semibold -top-6 -right-1'> {count} </p> </button>
