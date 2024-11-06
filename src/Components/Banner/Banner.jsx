@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImage from "../HeroImage/HeroImage";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -11,7 +12,7 @@ const Banner = () => {
           Explore the latest gadgets that will take your experience to the next level. From smart devices to 
           <br /> the coolest accessories, we have it all!
           </p>
-          <button className="btn rounded-full mb-56 ">Shop Now</button>
+          <Link to='/dashboard'><button className="btn rounded-full mb-56 ">Shop Now</button></Link>
         </div>
       </div>
 
