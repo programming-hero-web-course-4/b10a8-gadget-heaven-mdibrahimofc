@@ -3,8 +3,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiLoveMystery } from "react-icons/gi";
 import { getAddCartLIst } from '../Utility/AddToDB';
 
-const NavBar = ({productCount}) => {
-    console.log(productCount);
+const NavBar = () => {
     let count = getAddCartLIst().length;
     const location = useLocation().pathname
     return (
@@ -33,7 +32,7 @@ const NavBar = ({productCount}) => {
                     </NavLink>
                 </div>
                 <div className='space-x-4 text-2xl'>
-                    <button><AiOutlineShoppingCart /> {count} </button>
+                    <button className='relative'><AiOutlineShoppingCart className='text-4xl' /> <p className='absolute font-semibold -top-6 -right-1'> {count} </p> </button>
                     <button><NavLink to='/wishlist'><GiLoveMystery /></NavLink></button>
                 </div>
             </nav>

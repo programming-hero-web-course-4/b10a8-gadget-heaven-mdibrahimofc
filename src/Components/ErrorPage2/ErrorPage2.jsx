@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
-const ErrorPage = () => {
-  return (
-    <div>
+const ErrorPage2 = () => {
+    return (
+        <div>
       <section className="relative z-10 bg-primary py-[120px]">
         <div className="container mx-auto">
         <Helmet>
-        <title>Gadget Heaven - smart TV</title>
+        <title>Gadget Heaven - Statistics</title>
         <meta name="description" content="This is the home page of my React app." />
       </Helmet>
           <div className="-mx-4 flex">
@@ -44,7 +44,7 @@ const ErrorPage = () => {
         </div>
       </section>
     </div>
-  );
+    );
 };
 
-export default ErrorPage;
+export default ErrorPage2;

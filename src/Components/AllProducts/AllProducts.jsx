@@ -3,7 +3,6 @@ import Product from '../Product/Product';
 import FilteredProducts from '../FilteredProducts/FilteredProducts';
 
 const AllProducts = ({handleFilter, products}) => {
-    console.log(products);
     return (
         <div className='mt-96 flex w-4/5 mx-auto'>
             <div className='flex-grow mr-6 shadow-md h-fit'>

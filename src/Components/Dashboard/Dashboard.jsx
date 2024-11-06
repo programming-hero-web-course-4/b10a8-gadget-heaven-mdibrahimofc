@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import Carts from "../Carts/Carts";
 import Wishlist from "../Wishlist/Wishlist";
+import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
   const [toogle, setToggle] = useState('cart')
   return (
     <div>
+      <Helmet>
+        <title>Dashboard - Gadget Heaven</title>
+        <meta name="description" content="This is the home page of my React app." />
+      </Helmet>
       <div className="my-8 text-center bg-[#9538E2] py-8  ">
         <h2 className="font-bold text-3xl ">Dashboard</h2>
         <p className="mt-4 mb-8">

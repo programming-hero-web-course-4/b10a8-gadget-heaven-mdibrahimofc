@@ -7,6 +7,7 @@ import { GiLoveMystery } from "react-icons/gi";
 import { addToCartList, addToStoredWishList } from "../Utility/AddToDB";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from "react-helmet-async";
 const ProductsDetails = () => {
   const AllData = useLoaderData();
   const productId = useParams().productsId;
@@ -30,6 +31,10 @@ const ProductsDetails = () => {
   // };
   return (
     <div className="relative">
+      <Helmet>
+        <title>Gadget Heaven - Product Details</title>
+        <meta name="description" content="This is the details page of my React app." />
+      </Helmet>
       <div className="my-8 text-center bg-[#9538E2] pb-[235px] ">
         <h2 className="font-bold text-3xl ">Product Details</h2>
         <p>
@@ -47,7 +52,7 @@ const ProductsDetails = () => {
         <div>
           <h2 className="card-title">{product_title}</h2>
           <p className="font-semibold my-3 text-xl"> Price: ${price} </p>
-          <button className="btn rounded-full">In Stock</button>
+          <button className="btn rounded-full">{availability ? 'In Stock' : 'Out of stock'}</button>
           <p className="my-4">{description}</p>
           <h2 className="font-bold text-xl">Specification</h2>
           <ol className="my-3">
